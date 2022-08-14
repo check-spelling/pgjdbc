@@ -1841,7 +1841,7 @@ Date:   Mon May 20 16:57:37 2013 -0700
 Author: Dave Cramer 
 Date:   Mon May 20 19:56:30 2013 -0400
 
-    support for materialized views from Thomas Kelllerer
+    support for materialized views from Thomas Kellerer
 
 Author: Dave Cramer 
 Date:   Mon May 20 11:46:52 2013 -0700
