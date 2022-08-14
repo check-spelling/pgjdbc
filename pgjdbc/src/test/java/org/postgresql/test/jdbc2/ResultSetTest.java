@@ -335,7 +335,7 @@ public class ResultSetTest extends BaseTest4 {
   public void testgetBooleanJDBCCompliance() throws SQLException {
     // The JDBC specification in Table B-6 "Use of ResultSet getter Methods to Retrieve JDBC Data Types"
     // the getBoolean have this Supported JDBC Type: TINYINT, SMALLINT, INTEGER, BIGINT, REAL, FLOAT,
-    // DOUBLE, DECIAML, NUMERIC, BIT, BOOLEAN, CHAR, VARCHAR, LONGVARCHAR
+    // DOUBLE, DECIMAL, NUMERIC, BIT, BOOLEAN, CHAR, VARCHAR, LONGVARCHAR
 
     // There is no TINYINT in PostgreSQL
     testgetBoolean("int2"); // SMALLINT
