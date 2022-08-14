@@ -114,7 +114,7 @@ public class LogicalReplicationTest {
   }
 
   @Test(timeout = 1000)
-  public void testReceiveChangesOccursBeforStartReplication() throws Exception {
+  public void testReceiveChangesOccursBeforeStartReplication() throws Exception {
     PGConnection pgConnection = (PGConnection) replConnection;
 
     LogSequenceNumber lsn = getCurrentLSN();
