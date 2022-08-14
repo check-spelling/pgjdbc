@@ -1487,7 +1487,7 @@ Date:   Mon Mar 12 17:33:27 2012 -0700
 Author: Dave Cramer <davecramer@gmail.com>
 Date:   Mon Feb 13 16:43:57 2012 -0500
 
-    resolve ACL getTablePriveledges for later servers
+    resolve ACL getTablePrivileges for later servers
 
 Author: Kris Jurka <jurka@ejurka.com>
 Date:   Fri Feb 10 01:13:48 2012 -0800
