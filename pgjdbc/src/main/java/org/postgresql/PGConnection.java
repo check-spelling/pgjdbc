@@ -270,7 +270,7 @@ public interface PGConnection {
    *
    * <p>
    *  As of PostgreSQL 11 the reportable parameter list, and related PgJDBC
-   *  interfaces or accesors, are:
+   *  interfaces or assessors, are:
    * </p>
    *
    * <ul>
