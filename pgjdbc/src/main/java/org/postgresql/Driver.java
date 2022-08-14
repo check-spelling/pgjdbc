@@ -722,7 +722,7 @@ public class Driver implements java.sql.Driver {
    * @param callClass the call Class
    * @param functionName the name of the unimplemented function with the type of its arguments
    * @return PSQLException with a localized message giving the complete description of the
-   *         unimplemeted function
+   *         unimplemented function
    */
   public static SQLFeatureNotSupportedException notImplemented(Class<?> callClass,
       String functionName) {
