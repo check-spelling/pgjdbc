@@ -1874,7 +1874,7 @@ Date:   Fri Apr 12 02:35:27 2013 +0200
     TypeInfoCache did not consider the current search_path and was choosing
     an OID of a type not deterministically. These change will make
     the type from the current schema to be chosen. Also this change remains
-    backwards compatible with the previous implementation, still being anble
+    backwards compatible with the previous implementation, still being able
     to find a type, that is not included into the current search_path.
     
     Provided test fails now, as it does not TypeInfoCache
