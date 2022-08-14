@@ -807,7 +807,7 @@ public class QueryExecutorImpl extends QueryExecutorBase {
               timeoutMillis += startTime - newTimeMillis; // Overflows after 49 days, ignore that
               startTime = newTimeMillis;
               if (timeoutMillis == 0) {
-                timeoutMillis = -1; // Don't accidentially wait forever
+                timeoutMillis = -1; // Don't accidentally wait forever
               }
             }
             break;
