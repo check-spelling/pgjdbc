@@ -85,7 +85,7 @@ public class ClientInfoTest extends BaseTest4 {
     try {
       con.setClientInfo("UnexisingClientInfoName", "NoValue");
     } catch (SQLClientInfoException e) {
-      fail("Trying to set an unexisting name must not throw an exception (spec)");
+      fail("Trying to set a nonexistent name must not throw an exception (spec)");
     }
     assertNotNull(con.getWarnings());
   }
