@@ -1091,7 +1091,7 @@ public class StatementTest {
    * @throws SQLException if something goes wrong
    */
   @Test
-  public void testJavascriptFunction() throws SQLException {
+  public void testJavaScriptFunction() throws SQLException {
     String str = "  var _modules = {};\n"
         + "  var _current_stack = [];\n"
         + "\n"
@@ -1107,7 +1107,7 @@ public class StatementTest {
       ps = con.prepareStatement("select $JAVASCRIPT$" + str + "$JAVASCRIPT$");
       ResultSet rs = ps.executeQuery();
       rs.next();
-      assertEquals("Javascript code has been protected with $JAVASCRIPT$", str, rs.getString(1));
+      assertEquals("JavaScript code has been protected with $JAVASCRIPT$", str, rs.getString(1));
     } finally {
       TestUtil.closeQuietly(ps);
     }
