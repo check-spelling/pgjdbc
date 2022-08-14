@@ -1237,7 +1237,7 @@ Date:   Tue May 21 21:03:21 2013 -0400
 Author: Dave Cramer <davecramer@gmail.com>
 Date:   Tue May 21 20:23:00 2013 -0400
 
-    initialize binaryTranferEnable to null
+    initialize binaryTransferEnable to null
 
 Author: Dave Cramer <davecramer@gmail.com>
 Date:   Tue May 21 20:08:27 2013 -0400
@@ -1987,7 +1987,7 @@ Date:   Thu Feb 7 08:55:06 2013 -0500
 
     log can not be output when using DataSource
     property settings were not being copied to the datasource
-    these included logLevel, binaryTranfer, sslfactory, applicationName
+    these included logLevel, binaryTransfer, sslfactory, applicationName
     patch provided by Chen Huajun
 
 Author: Kris Jurka 
