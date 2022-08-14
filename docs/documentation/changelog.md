@@ -2362,7 +2362,7 @@ jurka.
 	default transaction isolation level. Committed by jurka. Thanks to Kevin Grittner.
 * ![update](../media/img/update.jpg) Update default permissions to account for changes in
 	different server versions.  8.2 removed the rule permission while 8.4 added a
-	trunctate permission. Committed by jurka.
+	truncate permission. Committed by jurka.
 * ![update](../media/img/update.jpg) Newer server versions (9.0+) allow extra_float_digits
 	to be set to 3 instead of the old limit of 2 to get the maximum precision of
 	floating point values out of the server. Committed by jurka.
