@@ -1683,7 +1683,7 @@ public class QueryExecutorImpl extends QueryExecutorBase {
     // be received from a client. If we have a bigger value
     // from either very large parameters or incorrect length
     // descriptions of setXXXStream we do not send the bind
-    // messsage.
+    // message.
     //
     if (encodedSize > 0x3fffffff) {
       throw new PGBindException(new IOException(GT.tr(
