@@ -154,7 +154,7 @@ public class CopyBothResponseTest {
 
     assertThat(
         "When replication starts via slot and specify LSN that lower than last LSN on server, "
-            + "we should get all changes that occurs beetween two LSN",
+            + "we should get all changes that occurs between two LSN",
         code, equalTo('w')
     );
   }
