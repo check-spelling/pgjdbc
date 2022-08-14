@@ -739,7 +739,7 @@ public class ResultSetTest extends BaseTest4 {
     Statement stmt =
         con.createStatement(ResultSet.TYPE_SCROLL_INSENSITIVE, ResultSet.CONCUR_UPDATABLE);
     ResultSet rs =
-        stmt.executeQuery("SELECT * FROM pg_database WHERE datname='nonexistantdatabase'");
+        stmt.executeQuery("SELECT * FROM pg_database WHERE datname='nonexistentdatabase'");
     assertTrue(!rs.previous());
     assertTrue(!rs.previous());
     assertTrue(!rs.next());
