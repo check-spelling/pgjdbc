@@ -793,7 +793,7 @@ public class XADataSourceTest {
   }
 
   /**
-   * When using deferred constraints a contraint violation can occur on prepare. This has to be
+   * When using deferred constraints a constraint violation can occur on prepare. This has to be
    * mapped to the correct XA Error Code
    */
   @Test
