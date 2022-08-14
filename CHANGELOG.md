@@ -288,7 +288,7 @@ is executed a second time it will fail.
 - Fix: properly set cancel socket timeout (#2044)
 - Fix "Required class information missing" when old org.jboss:jandex parses pgjdbc classes [issue 2008][https://github.com/pgjdbc/pgjdbc/issues/2008]
 - Fix PGCopyInputStream returning the last row twice when reading with CopyOut API [issue 2016][https://github.com/pgjdbc/pgjdbc/issues/2016]
-- Fix Connnection.isValid() to not wait longer than existing network timeout [PR #2040](https://github.com/pgjdbc/pgjdbc/pull/2040)
+- Fix Connection.isValid() to not wait longer than existing network timeout [PR #2040](https://github.com/pgjdbc/pgjdbc/pull/2040)
 - Fix Passwords with spaces (ASCII and non-ASCII) now work with SCRAM authentication (driver now uses SASLprep normalization) [PR #2052](https://github.com/pgjdbc/pgjdbc/pull/2052)
 - Fix DatabaseMetaData.getTablePrivileges() to include views, materialized views, and foreign tables [PR #2049](https://github.com/pgjdbc/pgjdbc/pull/2049)
 - Fix Resolve ParseError in PGtokenizer fixes #2050
