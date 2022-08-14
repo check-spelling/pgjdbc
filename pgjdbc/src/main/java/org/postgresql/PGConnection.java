@@ -59,7 +59,7 @@ public interface PGConnection {
    * method. Returns null if there have been no notifications. A timeout can be specified so the
    * driver waits for notifications.
    *
-   * @param timeoutMillis when 0, blocks forever. when &gt; 0, blocks up to the specified number of millies
+   * @param timeoutMillis when 0, blocks forever. when &gt; 0, blocks up to the specified number of millis
    *        or until at least one notification has been received. If more than one notification is
    *        about to be received, these will be returned in one batch.
    * @return notifications that have been received
