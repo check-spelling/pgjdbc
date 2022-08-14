@@ -112,7 +112,7 @@ public class CopyBothResponseTest {
   }
 
   @Test
-  public void testKeedAliveContaintCorrectLSN() throws Exception {
+  public void testKeedAliveContainsCorrectLSN() throws Exception {
     CopyManager cm = ((PGConnection) replConnection).getCopyAPI();
 
     LogSequenceNumber startLsn = getCurrentLSN();
