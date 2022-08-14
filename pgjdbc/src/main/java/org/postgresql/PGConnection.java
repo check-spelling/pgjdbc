@@ -253,7 +253,7 @@ public interface PGConnection {
    * applications via <code>getParameterStatuses()</code>.</p>
    *
    * <p>PgJDBC exposes individual accessors for some of these parameters as
-   * listed below. They are more backwarrds-compatible and should be preferred
+   * listed below. They are more backwards-compatible and should be preferred
    * where possible.</p>
    *
    * <p>Not all parameters are reported, only those marked
