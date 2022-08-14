@@ -313,7 +313,7 @@ public class DatabaseMetaDataHideUnprivilegedObjectsTest {
         "select_granted_table",
         "no_grants_table"));
 
-    // Or should the the tables names not be returned because the schema is not visible?
+    // Or should the tables names not be returned because the schema is not visible?
     tablesWithHiding = getTableNames(hidingDatabaseMetaData, "no_privileges_schema");
 
     assertThat(tablesWithHiding,
@@ -379,7 +379,7 @@ public class DatabaseMetaDataHideUnprivilegedObjectsTest {
         "select_granted_view",
         "no_grants_view"));
 
-    // Or should the the view names not be returned because the schema is not visible?
+    // Or should the view names not be returned because the schema is not visible?
     viewsWithHiding = getViewNames(hidingDatabaseMetaData, "no_privileges_schema");
 
     assertThat(viewsWithHiding,
@@ -433,7 +433,7 @@ public class DatabaseMetaDataHideUnprivilegedObjectsTest {
     assertThat(functionsWithNoHiding,
         hasItems("execute_granted_add_function", "no_grants_add_function"));
 
-    // Or should the the function names not be returned because the schema is not visible?
+    // Or should the function names not be returned because the schema is not visible?
     functionsWithHiding =
         getFunctionNames(hidingDatabaseMetaData, "no_privileges_schema");
     assertThat(functionsWithHiding,
@@ -486,7 +486,7 @@ public class DatabaseMetaDataHideUnprivilegedObjectsTest {
     assertThat(proceduresWithNoHiding,
         hasItems(executeGranted, noGrants));
 
-    // Or should the the function names not be returned because the schema is not visible?
+    // Or should the function names not be returned because the schema is not visible?
     proceduresWithHiding =
         getProcedureNames(hidingDatabaseMetaData, "no_privileges_schema");
     assertThat(proceduresWithHiding,
@@ -529,7 +529,7 @@ public class DatabaseMetaDataHideUnprivilegedObjectsTest {
       assertThat(typesWithHiding,
           not(hasItems("no_grants_composite_type", "no_grants_us_postal_code_domain")));
 
-      // Or should the the types names not be returned because the schema is not visible?
+      // Or should the types names not be returned because the schema is not visible?
       typesWithHiding = getTypeNames(hidingDatabaseMetaData, "no_privileges_schema");
       assertThat(typesWithHiding,
           hasItems("usage_granted_composite_type", "usage_granted_us_postal_code_domain"));
