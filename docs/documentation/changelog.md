@@ -489,7 +489,7 @@ Stephen Nelson (1):
 Vladimir Sitnikov (12):
 
 * doc: add coding guidelines to readme [PR#442](https://github.com/pgjdbc/pgjdbc/pull/442) [af62c6d](https://github.com/pgjdbc/pgjdbc/commit/af62c6d211097b7e39c04f6293c6d0f60f817adf)
-* chore: remove docbkx/pgjdbc.xml from reposiory [PR#435](https://github.com/pgjdbc/pgjdbc/pull/435) [92b65f0](https://github.com/pgjdbc/pgjdbc/commit/92b65f04de1240b24bd4f71e34903422656660c5)
+* chore: remove docbkx/pgjdbc.xml from repository [PR#435](https://github.com/pgjdbc/pgjdbc/pull/435) [92b65f0](https://github.com/pgjdbc/pgjdbc/commit/92b65f04de1240b24bd4f71e34903422656660c5)
 * chore: move files to "pgjdbc" maven module to prepare for pre-processor fix [PR#435](https://github.com/pgjdbc/pgjdbc/pull/435) [f95b44e](https://github.com/pgjdbc/pgjdbc/commit/f95b44ece4450ac22e98e9c3ef4b1d3ba531698f)
 * chore: use java comment preprocessor to build jre6/jre7/jre8 jars from the same sources [PR#435](https://github.com/pgjdbc/pgjdbc/pull/435) [42c2e3b](https://github.com/pgjdbc/pgjdbc/commit/42c2e3b7953b2e68281c4ec269bd9749e135065b)
 * doc: fix javadocs warnings when building via java 8 [PR#435](https://github.com/pgjdbc/pgjdbc/pull/435) [3b10873](https://github.com/pgjdbc/pgjdbc/commit/3b10873496c7e7cbd88a748a296c0f04dbce489a)
