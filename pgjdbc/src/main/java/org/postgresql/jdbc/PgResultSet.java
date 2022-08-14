@@ -3987,7 +3987,7 @@ public class PgResultSet implements ResultSet, org.postgresql.PGRefCursorResultS
       @Nullable Reader reader, long length)
       throws SQLException {
     throw org.postgresql.Driver.notImplemented(this.getClass(),
-        "updateCharaceterStream(int, Reader, long)");
+        "updateCharacterStream(int, Reader, long)");
   }
 
   public void updateCharacterStream(String columnName,
@@ -3999,7 +3999,7 @@ public class PgResultSet implements ResultSet, org.postgresql.PGRefCursorResultS
   public void updateCharacterStream(@Positive int columnIndex,
       @Nullable Reader reader) throws SQLException {
     throw org.postgresql.Driver.notImplemented(this.getClass(),
-        "updateCharaceterStream(int, Reader)");
+        "updateCharacterStream(int, Reader)");
   }
 
   public void updateCharacterStream(String columnName,
