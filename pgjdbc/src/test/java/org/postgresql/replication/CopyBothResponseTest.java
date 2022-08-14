@@ -106,7 +106,7 @@ public class CopyBothResponseTest {
     copyDual.endCopy();
 
     assertThat(
-        "Streaming replication start with swap keep alive message, we want that first get packege will be keep alive",
+        "Streaming replication start with swap keep alive message, we want that first get package will be keep alive",
         code, equalTo((int) 'k')
     );
   }
