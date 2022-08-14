@@ -435,7 +435,7 @@ public class StatementTest {
     // timestampadd(SQL_TSI_MONTH,3,{fn now()})})} ");
     // assertTrue(rs.next());
     // assertEquals(3,rs.getInt(1));
-    // QUARTER => backend assume there are 1 quater even in 270 days...
+    // QUARTER => backend assume there are 1 quarter even in 270 days...
     // rs = stmt.executeQuery("select {fn timestampdiff(SQL_TSI_QUARTER,{fn now()},{fn
     // timestampadd(SQL_TSI_QUARTER,3,{fn now()})})} ");
     // assertTrue(rs.next());
