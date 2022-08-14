@@ -269,7 +269,7 @@ public class LazyKeyManager implements X509KeyManager {
             // Extract the iteration count and the salt
             AlgorithmParameters algParams = ePKInfo.getAlgParameters();
             cipher.init(Cipher.DECRYPT_MODE, pbeKey, algParams);
-            // Decrypt the encryped private key into a PKCS8EncodedKeySpec
+            // Decrypt the encrypted private key into a PKCS8EncodedKeySpec
             KeySpec pkcs8KeySpec = ePKInfo.getKeySpec(cipher);
             key = kf.generatePrivate(pkcs8KeySpec);
           } catch (GeneralSecurityException ikex) {
