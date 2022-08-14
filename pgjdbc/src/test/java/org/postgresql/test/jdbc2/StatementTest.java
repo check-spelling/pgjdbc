@@ -213,7 +213,7 @@ public class StatementTest {
 
     rs = stmt.executeQuery("select * from {oj test_statement a left outer join b on (a.i=b.i)} ");
     assertTrue(!rs.next());
-    // test escape escape character
+    // test escape character
     rs = stmt
         .executeQuery("select str2 from comparisontest where str1 like '|_abcd' {escape '|'} ");
     assertTrue(rs.next());
