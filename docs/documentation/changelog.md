@@ -385,7 +385,7 @@ John Harvey (1):
 
 Dave Cramer (3):
 
-* fix:regression from previous behaviour where setObject(index,object,VARHCAR) should call getString if it can't cast it to a string [PR#482](https://github.com/pgjdbc/pgjdbc/pull/482) [9d6389c](https://github.com/pgjdbc/pgjdbc/commit/9d6389c57906c9d491087f8db9fa011d8308f8c2)
+* fix:regression from previous behaviour where setObject(index,object,VARCHAR) should call getString if it can't cast it to a string [PR#482](https://github.com/pgjdbc/pgjdbc/pull/482) [9d6389c](https://github.com/pgjdbc/pgjdbc/commit/9d6389c57906c9d491087f8db9fa011d8308f8c2)
 * fix:correct comment [PR#482](https://github.com/pgjdbc/pgjdbc/pull/482) [bfd73c7](https://github.com/pgjdbc/pgjdbc/commit/bfd73c72d3f59af3674e078e0e7c4b227207985d)
 * Update README.md [PR#482](https://github.com/pgjdbc/pgjdbc/pull/482) [5a956a3](https://github.com/pgjdbc/pgjdbc/commit/5a956a3720546086b3bb7dd156d1d2e3cdd1ee5a)
 
