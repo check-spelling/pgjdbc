@@ -1863,7 +1863,7 @@ Date:   Fri Apr 12 17:05:00 2013 +0200
 Author: Valentine Gogichashvili 
 Date:   Fri Apr 12 03:31:40 2013 +0200
 
-    Test is checking search_path usage dirctly on TypeInfo methods
+    Test is checking search_path usage directly on TypeInfo methods
 
 Author: Valentine Gogichashvili 
 Date:   Fri Apr 12 02:35:27 2013 +0200
