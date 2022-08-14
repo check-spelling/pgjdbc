@@ -282,7 +282,7 @@ George Kankava (1):
 
 Jeremy Whiting (3):
 
-* perf: Add optimization to re-write batched insert stataments. [ac8abf3](https://github.com/pgjdbc/pgjdbc/commit/ac8abf3f2acbef3f52eb7874b6815d1adc974299)
+* perf: Add optimization to re-write batched insert statements. [ac8abf3](https://github.com/pgjdbc/pgjdbc/commit/ac8abf3f2acbef3f52eb7874b6815d1adc974299)
 * fix: Change optimization to delay parameter and statement re-write to immediately before execution. [e591577](https://github.com/pgjdbc/pgjdbc/commit/e59157742c77769cc19e14aeb5aebd9c042e2050)
 * feat: Added to SQL parser to allow inspection of Statement attributes and Command. [4ddb693](https://github.com/pgjdbc/pgjdbc/commit/4ddb693ff073c128116b0d79f5aeb45c5ae7307c)
 
