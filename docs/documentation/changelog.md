@@ -1166,7 +1166,7 @@ Author: Dave Cramer <davecramer@gmail.com>
 
 Author: Dave Cramer <davecramer@gmail.com>
 
-    add functions to allow LargeObjectMaager to commit on close from Marc Cousin
+    add functions to allow LargeObjectManager to commit on close from Marc Cousin
 
 Author: tminglei <tmlneu@gmail.com>
 
@@ -1200,7 +1200,7 @@ Date:   Thu Oct 17 08:29:07 2013 -0400
 Author: Dave Cramer <davecramer@gmail.com>
 Date:   Tue Oct 15 06:51:45 2013 -0400
 
-    add functions to allow LargeObjectMaager to commit on close from Marc Cousin
+    add functions to allow LargeObjectManager to commit on close from Marc Cousin
 
 Author: halset <halset@ecc.no>
 Date:   Mon Sep 9 12:12:26 2013 +0200
@@ -1696,7 +1696,7 @@ Date:   Thu Oct 17 08:29:07 2013 -0400
 Author: Dave Cramer <davecramer@gmail.com>
 Date:   Tue Oct 15 06:51:45 2013 -0400
 
-    add functions to allow LargeObjectMaager to commit on close from Marc Cousin
+    add functions to allow LargeObjectManager to commit on close from Marc Cousin
 
 Author: Dave Cramer <davec@postgresintl.com>
 Date:   Tue Sep 10 07:25:06 2013 -0700
