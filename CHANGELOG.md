@@ -644,7 +644,7 @@ thrown to caller to be dealt with so no need to log at this verbosity by pgjdbc 
 ### Fixed
 - Replication API: fix issue in #834 setting statusIntervalUpdate causes high CPU load. [PR 835](https://github.com/pgjdbc/pgjdbc/pull/835) [59236b74](https://github.com/pgjdbc/pgjdbc/commit/59236b74acdd400d9d91d3eb2bb07d70b15392e5)
 
-### Regresions
+### Regressions
 - NPE in PreparedStatement.executeBatch in case of empty batch. Fixed in 42.1.3
 
 ## [42.1.1] (2017-05-05)
